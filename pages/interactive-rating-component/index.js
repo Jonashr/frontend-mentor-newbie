@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { RadioGroup } from '@headlessui/react';
 import RadioScoreOption from '@/components/interactive-rating/RadioScoreOption';
 
-export default function Home() {
+export default function InteractiveRatingComponentPage() {
   const [rating, setRating] = useState(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
