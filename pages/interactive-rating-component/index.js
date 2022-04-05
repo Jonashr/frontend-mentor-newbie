@@ -18,7 +18,10 @@ export default function InteractiveRatingComponentPage() {
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-very-dark-blue font-overpass font-normal">
-      <Head></Head>
+      <Head>
+        <title>Inteactive Rating Component - NextJS, TailwindCSS</title>
+        <meta name="description" content="Descriptive description would go here." />
+      </Head>
 
       {!isSubmitted && (
         <main>
